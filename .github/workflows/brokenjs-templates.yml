@@ -38,11 +38,12 @@ jobs:
             echo "templates=0" >> $GITHUB_ENV
           fi
 
-      - name: Create Issue If templates are broken
+      - name: Create Issue for broken templates
         if: env.templates == 1
-        uses: JasonEtco/create-an-issue@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TEMPLATES: ${{ steps.broken.outputs.templates }}
+        uses: nashmaniac/create-issue-action@v1.2
         with:
-          filename: .github/ISSUE_TEMPLATE/broken-templates.md
+          title: Broken JS Templates found
+          token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: tarunKoyalwar
+          labels: bug
+          body: 'Broken JS Templates Found \n\n ``json\n${{ steps.broken.outputs.templates }}\n```'
