@@ -30,13 +30,16 @@ jobs:
       - name: Check for broken syntax templates
         id: broken
         run: |
-          if [ $(cat errors.txt | grep "TypeError" | wc -l) -gt 1 ]; then
-            cat errors.txt | grep "TypeError" > type_errors_output.txt
-            echo templates=$(cat type_errors_output.txt) >> $GITHUB_OUTPUT
+          grep "TypeError" errors.txt > type_errors_output.txt
+          if [ -s type_errors_output.txt ]; then
+            echo "templates=1" >> $GITHUB_ENV
+            cat type_errors_output.txt
+          else
+            echo "templates=0" >> $GITHUB_ENV
           fi
 
       - name: Create Issue If templates are broken
-        if: steps.broken.outputs.templates > 0
+        if: env.templates == 1
         uses: JasonEtco/create-an-issue@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
