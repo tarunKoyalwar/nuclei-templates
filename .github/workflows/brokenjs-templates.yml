@@ -1,0 +1,45 @@
+name: ☑️ Broken JS Templates
+
+on:
+  pull_request:
+  workflow_dispatch:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: 1.21.x
+
+      - name: nuclei install
+        run: go install -v github.com/projectdiscovery/nuclei/v3/cmd/nuclei@main
+
+      - name: Run Javascript Templates
+        run: |
+          nuclei -u http://honey.scanme.sh -pt javascript -stats -elog errors.txt   
+          
+      - name: Check for broken syntax templates
+        id: broken
+        run: |
+          if [ $(cat errors.txt | grep "TypeError" | wc -l) -gt 1 ]; then
+            cat errors.txt | grep "TypeError" > type_errors_output.txt
+            echo templates=$(cat type_errors_output.txt) >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Issue If templates are broken
+        if: steps.broken.outputs.templates > 0
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: .github/ISSUE_TEMPLATE/broken-templates.md
+          templates: ${{ steps.broken.outputs.templates }}
