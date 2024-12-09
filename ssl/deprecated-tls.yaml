@@ -1,7 +1,7 @@
 id: deprecated-tls
 
 info:
-  name: Deprecated TLS Detection
+  name: Deprecated TLS Detections
   author: righettod,forgedhallpass
   severity: info
   description: |
