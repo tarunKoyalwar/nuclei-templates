@@ -1,3 +1,4 @@
+bulk: update
 id: azure-appservice-backup-retention-missing
 info:
   name: Azure App Service Backup Retention Not Configured

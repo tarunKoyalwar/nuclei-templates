@@ -1,3 +1,4 @@
+bulk: update
 id: ec2-unrestricted-mysql
 info:
   name: Unrestricted MySQL Access on EC2

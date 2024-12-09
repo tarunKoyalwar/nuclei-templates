@@ -1,3 +1,4 @@
+bulk: update
 id: azure-storage-byok-not-used
 info:
   name: Azure Storage Account Not Using BYOK

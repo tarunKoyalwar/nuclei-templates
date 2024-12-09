@@ -1,3 +1,4 @@
+bulk: update
 id: mysql-load-file
 info:
   name: MySQL LOAD_FILE - Enable

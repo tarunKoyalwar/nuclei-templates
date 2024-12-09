@@ -1,3 +1,4 @@
+bulk: update
 id: nacl-outbound-restrict
 info:
   name: Unrestricted NACL Outbound Traffic

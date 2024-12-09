@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-resource-lock-check
 info:
   name: Azure KeyVault Resource Lock Not Enabled

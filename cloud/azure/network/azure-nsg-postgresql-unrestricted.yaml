@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-postgresql-unrestricted
 info:
   name: Unrestricted PostgreSQL Database Access in Azure NSGs

@@ -1,3 +1,4 @@
+bulk: update
 id: unencrypted-aws-ami
 info:
   name: Unencrypted AWS AMI

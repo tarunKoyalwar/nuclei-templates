@@ -1,3 +1,4 @@
+bulk: update
 id: azure-redis-nonssl-port-disabled
 info:
   name: Azure Redis Cache In-Transit Encryption Not Enabled

@@ -1,3 +1,4 @@
+bulk: update
 id: azure-storage-min-tls-version
 info:
   name: Azure Storage Minimum TLS Version Not Set to TLS1_2

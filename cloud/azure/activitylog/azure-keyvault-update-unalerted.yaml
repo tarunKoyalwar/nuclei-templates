@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-update-unalerted
 info:
   name: Azure Key Vault Update Alert Not Configured

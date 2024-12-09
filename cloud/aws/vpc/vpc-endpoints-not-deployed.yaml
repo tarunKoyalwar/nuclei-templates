@@ -1,3 +1,4 @@
+bulk: update
 id: vpc-endpoints-not-deployed
 info:
   name: VPC Endpoints Not Deployed

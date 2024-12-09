@@ -1,3 +1,4 @@
+bulk: update
 id: azure-storage-queue-logging-disabled
 info:
   name: Azure Storage Queue Logging Not Enabled

@@ -1,3 +1,4 @@
+bulk: update
 id: azure-appservice-ftp-deployment-disabled
 info:
   name: Azure App Service Plain FTP Deployment Disabled

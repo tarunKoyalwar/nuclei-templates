@@ -1,3 +1,4 @@
+bulk: update
 id: azure-vm-deallocate-unalerted
 info:
   name: Azure Virtual Machine Deallocate Alert Not Configured

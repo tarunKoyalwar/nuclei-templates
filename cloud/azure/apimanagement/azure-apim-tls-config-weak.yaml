@@ -1,3 +1,4 @@
+bulk: update
 id: azure-apim-tls-config-weak
 info:
   name: Azure API Management Weak TLS Configured

@@ -1,3 +1,4 @@
+bulk: update
 id: azure-storage-encryption-missing
 info:
   name: Azure Storage Infrastructure Encryption Not Enabled

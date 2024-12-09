@@ -1,3 +1,4 @@
+bulk: update
 id: azure-storage-private-endpoint-unconfigured
 info:
   name: Azure Storage Private Endpoint Not Configured

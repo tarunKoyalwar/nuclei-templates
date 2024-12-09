@@ -1,3 +1,4 @@
+bulk: update
 id: cw-alarm-action-set
 info:
   name: CloudWatch Alarm Action Not Set

@@ -1,3 +1,4 @@
+bulk: update
 id: s3-bucket-key
 info:
   name: S3 Bucket Key not enabled

@@ -1,3 +1,4 @@
+bulk: update
 id: nat-gateway-use
 info:
   name: Managed NAT Gateway Usage

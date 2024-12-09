@@ -1,3 +1,4 @@
+bulk: update
 id: iam-key-rotation-90days
 info:
   name: IAM Access Key Rotation - 90-Day Policy

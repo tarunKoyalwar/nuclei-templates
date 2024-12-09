@@ -1,3 +1,4 @@
+bulk: update
 id: azure-postgresql-ssl-enforcement
 info:
   name: Azure PostgreSQL SSL Enforcement Not Enabled

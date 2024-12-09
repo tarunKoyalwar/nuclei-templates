@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-delete-unalerted
 info:
   name: Azure Network Security Group Delete Alert Not Configured

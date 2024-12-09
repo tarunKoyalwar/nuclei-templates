@@ -1,3 +1,4 @@
+bulk: update
 id: azure-mfa-not-enabled-privileged-users
 info:
   name: Azure MFA Not Enabled for All Privileged Users

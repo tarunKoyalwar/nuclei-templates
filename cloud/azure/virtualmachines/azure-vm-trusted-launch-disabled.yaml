@@ -1,3 +1,4 @@
+bulk: update
 id: azure-vm-trusted-launch-disabled
 info:
   name: Azure VM Trusted Launch Not Enabled

@@ -1,3 +1,4 @@
+bulk: update
 id: azure-apim-http2-not-enabled
 info:
   name: Azure API Management HTTP/2 Support Not Enabled

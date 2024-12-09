@@ -1,3 +1,4 @@
+bulk: update
 id: azure-vm-unmanaged-disk-volumes
 info:
   name: Azure VM Unmanaged Disk Volumes Detected

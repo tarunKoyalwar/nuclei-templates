@@ -1,3 +1,4 @@
+bulk: update
 id: ec2-imdsv2
 info:
   name: Enforce IMDSv2 on EC2 Instances

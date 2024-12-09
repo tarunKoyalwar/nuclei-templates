@@ -1,3 +1,4 @@
+bulk: update
 id: rds-event-sub
 info:
   name: RDS Security Group Event Notifications

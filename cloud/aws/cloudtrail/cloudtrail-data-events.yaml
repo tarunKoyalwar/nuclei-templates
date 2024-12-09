@@ -1,3 +1,4 @@
+bulk: update
 id: cloudtrail-data-events
 info:
   name: CloudTrail S3 Data Events Logging

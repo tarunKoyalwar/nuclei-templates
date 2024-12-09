@@ -1,3 +1,4 @@
+bulk: update
 id: azure-aks-entra-id-unintegrated
 info:
   name: Azure AKS Microsoft Entra ID Integration Not Configured

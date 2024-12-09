@@ -1,3 +1,4 @@
+bulk: update
 id: ec2-sg-egress-open
 info:
   name: Open Egress in EC2 Security Group

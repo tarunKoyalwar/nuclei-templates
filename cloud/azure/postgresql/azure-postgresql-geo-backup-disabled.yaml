@@ -1,3 +1,4 @@
+bulk: update
 id: azure-postgresql-geo-backup-disabled
 info:
   name: Azure PostgreSQL Geo-Redundant Backup Not Enabled

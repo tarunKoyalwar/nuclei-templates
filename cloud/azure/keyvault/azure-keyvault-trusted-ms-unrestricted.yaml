@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-trusted-ms-unrestricted
 info:
   name: Key Vault Trusted Microsoft Services Access Not Configured

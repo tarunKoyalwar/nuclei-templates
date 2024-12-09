@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-mssql-unrestricted
 info:
   name: Unrestricted MS SQL Server Access in Azure NSGs

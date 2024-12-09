@@ -1,3 +1,4 @@
+bulk: update
 id: cloudtrail-mfa-delete
 info:
   name: CloudTrail MFA Delete

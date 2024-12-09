@@ -1,3 +1,4 @@
+bulk: update
 id: azure-vm-entra-id-unenabled
 info:
   name: Azure VM Microsoft Entra ID Authentication Not Enabled

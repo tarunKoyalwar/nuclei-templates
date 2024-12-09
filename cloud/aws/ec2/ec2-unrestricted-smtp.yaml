@@ -1,3 +1,4 @@
+bulk: update
 id: ec2-unrestricted-smtp
 info:
   name: Unrestricted SMTP Access in EC2

@@ -1,3 +1,4 @@
+bulk: update
 id: ec2-sg-ingress
 info:
   name: Unrestricted Access on Uncommon EC2 Ports

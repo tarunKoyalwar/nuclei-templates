@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-recoverability-unconfigured
 info:
   name: Key Vault Recoverability Not Configured

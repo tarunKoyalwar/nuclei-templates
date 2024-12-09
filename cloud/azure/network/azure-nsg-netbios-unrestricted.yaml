@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-netbios-unrestricted
 info:
   name: Unrestricted NetBIOS Access in Azure NSGs

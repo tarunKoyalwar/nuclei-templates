@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-rule-delete-unalerted
 info:
   name: Azure NSG Rule Delete Alert Not Configured

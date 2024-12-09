@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-create-update-unalerted
 info:
   name: Azure Network Security Group Create/Update Alert Not Configured

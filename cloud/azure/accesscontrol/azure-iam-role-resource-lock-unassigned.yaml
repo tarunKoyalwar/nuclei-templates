@@ -1,3 +1,4 @@
+bulk: update
 id: azure-iam-role-resource-lock-unassigned
 info:
   name: Azure IAM Role for Resource Locking Not Assigned

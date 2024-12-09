@@ -1,3 +1,4 @@
+bulk: update
 id: azure-nsg-icmp-unrestricted
 info:
   name: Unrestricted ICMP Access in Azure NSGs

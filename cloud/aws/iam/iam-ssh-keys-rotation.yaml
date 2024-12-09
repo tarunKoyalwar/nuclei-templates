@@ -1,3 +1,4 @@
+bulk: update
 id: iam-ssh-keys-rotation
 info:
   name: SSH Key Rotation - 90-Day Policy

@@ -1,3 +1,4 @@
+bulk: update
 id: azure-sql-fw-rule-unalerted
 info:
   name: Azure SQL Server Firewall Rule Create/Update/Delete Alert Not Configured

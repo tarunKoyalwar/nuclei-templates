@@ -1,3 +1,4 @@
+bulk: update
 id: azure-cosmosdb-auto-failover-missing
 info:
   name: Azure Cosmos DB Automatic Failover Not Enabled

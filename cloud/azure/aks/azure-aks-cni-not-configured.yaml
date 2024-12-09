@@ -1,3 +1,4 @@
+bulk: update
 id: azure-aks-cni-not-configured
 info:
   name: Azure AKS Not Using CNI Mode

@@ -1,3 +1,4 @@
+bulk: update
 id: azure-app-tier-vm-disk-unencrypted
 info:
   name: Azure App-Tier VM Disk Encryption Not Enabled

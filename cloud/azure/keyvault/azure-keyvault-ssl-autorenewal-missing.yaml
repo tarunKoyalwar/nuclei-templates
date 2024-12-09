@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-ssl-autorenewal-missing
 info:
   name: Missing SSL Certificate Auto-Renewal in Azure Key Vaults

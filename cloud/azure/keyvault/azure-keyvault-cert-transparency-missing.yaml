@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-cert-transparency-missing
 info:
   name: Missing Certificate Transparency in Azure Key Vaults

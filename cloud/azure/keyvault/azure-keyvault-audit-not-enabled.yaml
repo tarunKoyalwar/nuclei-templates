@@ -1,3 +1,4 @@
+bulk: update
 id: azure-keyvault-audit-not-enabled
 info:
   name: Enable AuditEvent Logging for Azure Key Vaults

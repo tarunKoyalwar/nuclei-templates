@@ -1,3 +1,4 @@
+bulk: update
 id: s3-mfa-delete-check
 info:
   name: S3 Bucket MFA Delete Configuration Check

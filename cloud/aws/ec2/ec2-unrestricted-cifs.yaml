@@ -1,3 +1,4 @@
+bulk: update
 id: ec2-unrestricted-cifs
 info:
   name: EC2 Unrestricted CIFS Access

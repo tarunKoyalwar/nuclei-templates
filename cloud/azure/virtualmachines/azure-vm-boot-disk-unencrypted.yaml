@@ -1,3 +1,4 @@
+bulk: update
 id: azure-vm-boot-disk-unencrypted
 info:
   name: Azure VM Boot Disk Not Encrypted

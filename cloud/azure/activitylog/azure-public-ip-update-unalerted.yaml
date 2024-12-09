@@ -1,3 +1,4 @@
+bulk: update
 id: azure-public-ip-update-unalerted
 info:
   name: Azure Public IP Create/Update Alert Not Configured

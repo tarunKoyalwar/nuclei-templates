@@ -1,3 +1,4 @@
+bulk: update
 id: azure-blob-service-logging-disabled
 info:
   name: Azure Storage Blob Service Logging Not Enabled
